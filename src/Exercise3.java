@@ -28,10 +28,10 @@ public class Exercise3 {
             }
             else if (choice == 3) {
                 // Algorithm to reverse a string manually [cite: 27]
-                String reversed = "";
+                StringBuilder reversed = new StringBuilder();
                 // Loop backwards from the last character to the first
                 for (int i = text.length() - 1; i >= 0; i--) {
-                    reversed = reversed + text.charAt(i);
+                    reversed.append(text.charAt(i));
                 }
                 System.out.println("Reversed string: " + reversed);
             }
