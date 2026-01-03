@@ -13,11 +13,10 @@ public class Exercise2 {
         if (verb.endsWith("er")) {
 
             // 3. Extract the root (radical)
-            // We take the string from index 0 up to (length - 2)
-            // Example: "chanter" (7 letters) -> we keep indices 0 to 5 ("chant")
+
             String root = verb.substring(0, verb.length() - 2);
 
-            // 4. Display conjugation [cite: 14, 15, 16, 17, 18, 19]
+            // 4. Display conjugation
             System.out.println("je " + root + "e");
             System.out.println("→ tu " + root + "es");
             System.out.println("→ il/elle " + root + "e");

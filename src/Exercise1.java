@@ -36,7 +36,7 @@ public class Exercise1 {
         System.out.println("Lowest grade: " + grades[0]);
         System.out.println("Highest grade: " + grades[n - 1]);
 
-        // 5. Count occurrences of a specific grade [cite: 9]
+        // 5. Count occurrences of a specific grade
         System.out.print("Enter a grade to count how many students got it: ");
         double targetGrade = scanner.nextDouble();
         int count = 0;
